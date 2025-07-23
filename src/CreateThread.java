@@ -17,7 +17,7 @@ public class CreateThread {
 //
 //        System.out.println(objThread.getState());
 
-        //it is recommended to use functional programming using lamabada expression
+        //it is recommended to use functional programming using lambda expression
         // this is also not an efficient  way to do this
         Thread objThread2 = new Thread(() ->{
             System.out.println("Thread 2 is running");
